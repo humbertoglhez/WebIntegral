@@ -1,5 +1,3 @@
-EDITADO POR EL EQUIPO 1
-
 PROSESO DE INTRALACION
 
 1--- Lo primero que se tiene que hacer es instalar node.js desde la página oficial: (Instalar la versión recomendada)

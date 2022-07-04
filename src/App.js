@@ -8,6 +8,8 @@ import sesión from './components/pages/Products';
 import Productos from './components/pages/Productos';
 import SignUp from './components/pages/SignUp';
 import Usuarios from './components/pages/Usuarios';
+import Payments from './components/pages/Payments';
+import Maps from './components/pages/Maps';
 
 //Declare value of sesion
 var sesionVar=localStorage.getItem('sesion'); //Take value of LocalStorage
@@ -22,10 +24,12 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
-        <Route path='/sesión' component={sesión} />
+        <Route path='/sesion' component={sesion} />
         <Route path='/productos' component={Productos} />
         <Route path='/sesión' component={SignUp} />
         <Route path='/usuarios' component={Usuarios} />
+        <Route path='/payments' component={Payments} />
+        <Route path='/maps' component={Maps} />
     </Switch>
   </Router>;
   return (
